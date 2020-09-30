@@ -274,6 +274,7 @@ img{
 .parallax{
     background: url('https://images.wallpaperscraft.com/image/code_text_programming_146694_1366x768.jpg') no-repeat center;
     background-size: cover;
+    
     background-attachment: fixed;
     height: 500px;
 
