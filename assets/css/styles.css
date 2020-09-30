@@ -322,15 +322,7 @@ img{
     background-image: url('https://images.pexels.com/photos/1097930/pexels-photo-1097930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 min-height: 100%;
 }
-.paraabout{
-    font-variant: none;
-  background-color: rgba(37, 25, 25, 0.699);
-  text-align: justify;
-  padding-right: 5%;
-  padding-left: 5%;
-  margin-left: 25%;
-  color: rgb(252, 252, 252);
-}
+
 .about__container{
     justify-items: center;
     row-gap: 2rem;
