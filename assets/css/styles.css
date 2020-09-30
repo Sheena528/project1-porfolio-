@@ -373,11 +373,7 @@ min-height: 400px;
 .academics{
     background-color: var(--black-color);
 }
-.academics__container{
-    justify-items: center;
-    row-gap: 2rem;
-    text-align: center;
-}
+
 .academics__subtitle{
     font-size: var(--h2-font-size);
     color: var(--first-color);
