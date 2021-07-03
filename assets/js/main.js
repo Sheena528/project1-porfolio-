@@ -1,4 +1,3 @@
-showMenu('nav-toggle','nav-menu')
 /*===== MENU SHOW =====*/ 
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
@@ -10,6 +9,7 @@ const showMenu = (toggleId, navId) =>{
         })
     }
 }
+showMenu('nav-toggle','nav-menu')
 
 /*===== REMOVE MENU MOBILE =====*/
 const navLink = document.querySelectorAll('.nav__link')
@@ -19,8 +19,6 @@ function linkAction(){
     navMenu.classList.remove('show')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
-
-
 
 /*===== SCROLL SECTIONS ACTIVE LINK =====*/
 const sections = document.querySelectorAll('section[id]')
@@ -79,6 +77,10 @@ sr.reveal('.contact__subtitle', {})
 sr.reveal('.contact__text', {interval: 200})
 sr.reveal('.contact__input', {delay: 400})
 sr.reveal('.contact__button', {delay: 600})
+
+
+
+
 
 
 
